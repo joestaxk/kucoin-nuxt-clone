@@ -1,0 +1,49 @@
+name: Production deploy
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  build:
+    name: build app
+    runs-on: ubuntu-latest
+    
+    # defaults:
+    #   run:
+    #     working-directory: fluttercurve-app
+
+    steps:
+      - name: checkout code
+        uses: actions/checkout@v3
+
+      - name: use nodejs 18
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      - name: install dependencies
+        run: npm install
+        
+      - name: build app
+        run: npm run build
+
+      - name: deploy app
+        uses: SamKirkland/FTP-Deploy-Action@4.3.3
+        with:
+          server: ssh.strato.com
+          username: ${{ secrets.FTP_USER }}
+          password: ${{ secrets.FTP_PASS }}
+          local-dir: ./.output/
+          exclude: |
+            **/.git*/**
+            **/node_modules/**
+            **/src/**
+            .eslintrc.json
+            .gitignore
+            README.md
+            package-lock.json
+            postcss.config.js
+            tailwind.config.js
+            tsconfig.json
+            yarn.lock
