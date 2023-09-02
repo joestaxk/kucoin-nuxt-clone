@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap'); */
+
+.coverbg{
+  background: linear-gradient(rgb(114, 137, 218, 0.2) 0%, rgba(255, 255, 255, 0) 100%),url('/coversvg.svg');
+  background-repeat: no-repeat;
+  background-position: 100% 0%;
+  background-size: contain;
+}
+@media screen and (max-width: 1200px) {
+  .coverbg {
+    background-position: -189% 0%;
+    background-size: cover;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .coverbg {
+    background-position:20% 0%; 
+    background-size:cover;
+  }
+}
+
+*,html,body {
+    font-family: 'Roboto', sans-serif;
+}
