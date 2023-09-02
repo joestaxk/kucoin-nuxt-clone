@@ -6,8 +6,10 @@
 </script>
 
 <template>
-  <Header />
-  <Cover />
-  <CryptoMarket />
-  <DistributionSection/>
+  <!-- <ClientOnly> -->
+    <Header />
+    <Cover />
+    <CryptoMarket />
+    <DistributionSection/>
+  <!-- </ClientOnly> -->
 </template>
