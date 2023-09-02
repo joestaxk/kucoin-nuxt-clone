@@ -34,7 +34,7 @@ jobs:
           server: ftp.strato.com
           username: ${{ secrets.FTP_USER }}
           password: ${{ secrets.FTP_PASS }}
-          local-dir: ./.output/
+          local-dir: ./dist/
           exclude: |
             **/.git*/** 
             **/node_modules/**
