@@ -1,22 +1,15 @@
 <template>
     <header class="bg-white fixed top-0 left-0 w-full z-20">
-      <nav class="mx-auto flex items-center justify-between p-4  lg:px-8" aria-label="Global">
-        <div class="flex lg:flex-1 gap-4 items-center divide-x divide-gray-300 text-sm">
-            <a href="#" class="-m-1.5 p-1.5">
+      <nav class="mx-auto flex items-center justify-between p-4 lg:px-6" aria-label="Global">
+        <div class="flex flex-1 gap-4 items-center divide-x divide-gray-300 text-sm">
+            <a href="#" class="-m-1.5">
                 <span class="sr-only">Your Company</span>
-                <div class="w-40px] h-[50px]  flex place-content-center">
+                <div class="w-[40px] h-[50px]  flex place-content-center">
                   <img class=" w-full h-[50px]" src="/zihux_logo.png" alt="" />
-
                 </div>
             </a>
 
             <div class="pl-4">
-                <div class="flex lg:hidden">
-                    <button type="button" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700" @click="mobileMenuOpen = true">
-                        <span class="sr-only">Open main menu</span>
-                        <Bars3Icon class="h-6 w-6" aria-hidden="true" />
-                    </button>
-                </div>
                 <PopoverGroup class="hidden lg:flex lg:gap-x-4">
                 <Popover class="relative">
                     <PopoverButton class="flex items-center gap-x-1 text-sm font-semibold leading-6 text-gray-900">
@@ -56,45 +49,82 @@
                 </PopoverGroup>
             </div>
         </div>
-        <div class="hidden lg:flex lg:flex-1 lg:justify-end gap-4 items-center">
-          <a href="#" class="text-sm font-semibold leading-6 text-gray-800">Log In </a>
-          <a href="#" class="text-sm font-semibold leading-6  bg-[#0c0c0c] rounded-full px-4 py-1 text-white">Sign Up </a>
+        <div class="flex flex-1 justify-end gap-4 items-center ">
+          <div class="flex items-center gap-2">
+            <a href="#" class="text-sm font-semibold leading-6 text-gray-800">Log In </a>
+            <a href="#" class="text-sm font-semibold leading-6  bg-[#0c0c0c] rounded-full px-4 py-1 text-white">Sign Up </a>
+          </div>
+
+          <div class="h-5 w-[.5px] bg-gray-300 "></div>
+          <button  @click="mobileMenuOpen = true" class="group w-[35px] h-[35px] rounded-full flex justify-center items-center bg-[#f6f6f6]">
+            <svg class="group-hover:fill-kcoin transition-colors duration-150" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="#1D1D1D" style="cursor: pointer;"><path d="M153.6 256a51.2 51.2 0 0151.2-51.2h614.4a51.2 51.2 0 110 102.4H204.8a51.2 51.2 0 01-51.2-51.2zm0 256a51.2 51.2 0 0151.2-51.2H512a51.2 51.2 0 110 102.4H204.8a51.2 51.2 0 01-51.2-51.2zm0 256a51.2 51.2 0 0151.2-51.2h614.4a51.2 51.2 0 110 102.4H204.8a51.2 51.2 0 01-51.2-51.2z"></path></svg>
+          </button>
         </div>
       </nav>
-      <Dialog as="div" class="lg:hidden" @close="mobileMenuOpen = false" :open="mobileMenuOpen">
-        <div class="fixed inset-0 z-10" />
-        <DialogPanel class="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
-          <div class="flex items-center justify-between">
-            <a href="#" class="-m-1.5 p-1.5">
-              <span class="sr-only">Your Company</span>
-              <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="" />
-            </a>
-            <button type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700" @click="mobileMenuOpen = false">
+
+
+      <!-- nav bar on mobile -->
+      <Dialog as="div" class="transition-transform duration-300" @close="mobileMenuOpen = false" :open="mobileMenuOpen">
+        <div class="fixed inset-0 z-30 bg-black opacity-25" />
+        <DialogPanel class="fixed inset-y-0 right-0 z-30 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+          <div class="flex items-center justify-end">
+            <button type="button" class="-m-2.5 rounded-md p-2.5 text-gray-100" @click="mobileMenuOpen = false">
               <span class="sr-only">Close menu</span>
-              <XMarkIcon class="h-6 w-6" aria-hidden="true" />
+              <XCircleIcon class="h-7 w-7 text-gray-500" aria-hidden="true" />
             </button>
           </div>
-          <div class="mt-6 flow-root">
-            <div class="-my-6 divide-y divide-gray-500/10">
+
+          <div class="flex justify-center gap-3 items-center mt-10">
+            <button class="p-3 rounded-full w-1/2 border border-black font-bold">Log In</button>
+            <button class="p-3 rounded-full w-1/2 border border-black bg-black text-white font-bold">Sign Up</button>
+          </div>
+
+
+          
+          <div class="mt-6 flow-root lg:hidden">
+            <div class="-my-6 border-b divide-y divide-gray-500/10">
               <div class="space-y-2 py-6">
                 <Disclosure as="div" class="-mx-3" v-slot="{ open }">
                   <DisclosureButton class="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
-                    Product
+                    Buy Crypto
                     <ChevronDownIcon :class="[open ? 'rotate-180' : '', 'h-5 w-5 flex-none']" aria-hidden="true" />
                   </DisclosureButton>
                   <DisclosurePanel class="mt-2 space-y-2">
-                    <DisclosureButton v-for="item in [...products, ...callsToAction]" :key="item.name" as="a" :href="item.href" class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50">{{ item.name }}</DisclosureButton>
+                    <DisclosureButton v-for="item in [...products]" :key="item.name" as="a" :href="item.href" class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50">{{ item.name }}</DisclosureButton>
                   </DisclosurePanel>
                 </Disclosure>
                 <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Markets</a>
                 <!-- <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Marketplace</a>
                 <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Company</a> -->
               </div>
-              <div class="py-6">
+              <!-- <div class="py-6">
                 <a href="#" class="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Log in</a>
-              </div>
+              </div> -->
             </div>
           </div>
+
+            <!--  -->
+          <div class="mt-8 w-full space-y-3">
+            <div class="flex items-center justify-between hover:bg-gray-50 p-3 px-3 rounded-lg">
+              <div class="flex gap-2 items-center">
+                <GlobeAltIcon class="h-6 w-6 text-gray-600" />
+                <span class="font-bold text-md text-gray-800">Language</span>
+              </div>
+                
+              <span class="text-gray-500 text-sm">English</span>
+            </div>
+
+            <div class="flex items-center justify-between hover:bg-gray-50 p-3 px-3 rounded-lg">
+              <div class="flex gap-2 items-center">
+                <CurrencyDollarIcon class="h-6 w-6 text-gray-600" />
+                <span class="font-bold text-md text-gray-800">Currecy</span>
+              </div>
+                
+              <span class="text-gray-500 text-sm">USD($)</span>
+            </div>
+          </div>
+
+
         </DialogPanel>
       </Dialog>
     </header>
@@ -121,6 +151,9 @@
     ChartBarIcon,
     SquaresPlusIcon,
     XMarkIcon,
+    GlobeAltIcon,
+XCircleIcon,
+CurrencyDollarIcon,
   } from '@heroicons/vue/24/outline'
   import { ChevronDownIcon, PhoneIcon, PlayCircleIcon } from '@heroicons/vue/20/solid'
   

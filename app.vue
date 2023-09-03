@@ -3,6 +3,7 @@
   import Header from './components/header.vue'
   import CryptoMarket from './components/cryptoMarket.vue'
   import DistributionSection from './components/distributionSection.vue'
+  import ExploreProducts from './components/exploreProducts.vue';
 </script>
 
 <template>
@@ -10,6 +11,7 @@
     <Header />
     <Cover />
     <CryptoMarket />
+    <ExploreProducts />
     <DistributionSection/>
   <!-- </ClientOnly> -->
 </template>
