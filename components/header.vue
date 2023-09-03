@@ -1,11 +1,11 @@
 <template>
     <header class="bg-white fixed top-0 left-0 w-full z-20">
       <nav class="mx-auto flex items-center justify-between p-4 lg:px-6" aria-label="Global">
-        <div class="flex flex-1 gap-4 items-center divide-x divide-gray-300 text-sm">
+        <div class="flex md:flex-1 gap-4 items-center divide-x divide-gray-300 text-sm">
             <a href="#" class="-m-1.5">
                 <span class="sr-only">Your Company</span>
-                <div class="w-[40px] h-[50px]  flex place-content-center">
-                  <img class=" w-full h-[50px]" src="/zihux_logo.png" alt="" />
+                <div class="">
+                  <img class=" w-full h-[50px] scale-110" src="/zihux_logo.png" alt="" />
                 </div>
             </a>
 
@@ -50,9 +50,9 @@
             </div>
         </div>
         <div class="flex flex-1 justify-end gap-4 items-center ">
-          <div class="flex items-center gap-2">
-            <a href="#" class="text-sm font-semibold leading-6 text-gray-800">Log In </a>
-            <a href="#" class="text-sm font-semibold leading-6  bg-[#0c0c0c] rounded-full px-4 py-1 text-white">Sign Up </a>
+          <div class="flex items-center gap-4">
+            <a href="#" class="text-sm font-semibold leading-6 text-gray-800 hidden md:block">Log In </a>
+            <a href="#" class="text-sm font-semibold leading-6  bg-[#0c0c0c] block rounded-full px-4 py-1 text-white">Sign Up </a>
           </div>
 
           <div class="h-5 w-[.5px] bg-gray-300 "></div>

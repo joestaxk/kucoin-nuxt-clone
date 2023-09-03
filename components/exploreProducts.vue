@@ -3,17 +3,17 @@
         :style="{ background: 'rgba(0, 0, 0, 0) linear-gradient(rgba(43, 83, 238, 0) 0%, rgba(70, 88, 241, 0.07) 30.73%, rgba(72, 98, 199, 0.12) 100%) repeat scroll 0% 0%' }">
         <div class="xl:w-[1100px] xl:p-0 p-5 w-full flex flex-col items-center">
             <div class="py-10 mt-10">
-                <h1 class="text-4xl font-semibold">Explore KuCoin Products & Services</h1>
+                <h1 class="lg:text-4xl md:text-3xl text-2xl text-center font-semibold">Explore KuCoin Products & Services</h1>
             </div>
 
-            <div class="w-full mt-9">
+            <div class="w-full mt-6">
                 <div class=" w-full flex flex-wrap gap-8">
                     <div class="xl:w-[48%] w-full bg-white p-11 rounded-xl cursor-pointer hover:-translate-y-2 transition-all duration-300"  v-for="data in explore" :key="data.name">
                         <div class="flex justify-between items-center mb-4">
-                            <h2 class="text-2xl font-semibold">{{ data.name }}</h2>
+                            <h2 class="md:text-2xl text-lg font-semibold">{{ data.name }}</h2>
                             <span class="text-lg font-bold">&rarr;</span>
                         </div>
-                        <p class="text-gray-500 text-md">{{ data.desc }}</p>
+                        <p class="text-gray-500 md:text-md text-sm">{{ data.desc }}</p>
                     </div>
                 </div>
             </div>

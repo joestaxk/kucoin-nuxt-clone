@@ -154,7 +154,7 @@
           <h1 class="md:mb-0 mb-2 md:text-[2rem] leading-10 text-[1.5rem] font-bold">
             {{ t("New Users Only") }}
           </h1>
-          <p class="text-[rgba(29,29,29,0.4)] leading-relaxed text-lg">
+          <p class="text-[rgba(29,29,29,0.4)] leading-relaxed md:text-lg text-sm">
             {{ t("Start trading to get up to 3,200 USDT in rewards!") }}
           </p>
           <div class="flex justify-end">
@@ -169,22 +169,23 @@
         </div>
 
         <div v-for="(item, i) in newUser" :key="i.toString()" class="w-full">
-          <div class="w-full flex items-center rounded-xl" :class="{ 'bg-[#dbe3ff5b]': i < 1, 'md:flex': i < 1 }">
-            <div class="flex items-center grow  gap-4 p-5">
+          <div class="w-full md:flex items-center rounded-xl" :class="{ 'bg-[#dbe3ff5b]': i < 1, 'md:flex': i < 1 }">
+            <div class="flex items-center grow   vgap-4 p-5">
               <div
-                class="md:w-[45px] md:h-[45px] w-[32px] h-[32px] rounded-full text-[16px] flex items-center justify-center mr-3 font-bold border border-black"
+                class="md:w-[45px] md:h-[45px] min-w-[32px] min-h-[32px] rounded-full text-[16px] flex items-center justify-center mr-3 font-bold border border-black"
                 :class="{ 'bg-black': i < 1, 'bg-white': i < 1, 'bg-transparent': i >= 1 }">
                 {{ i + 1 }}
               </div>
+
               <div class="">
                 <h2 class="lg:text-xl md:text-lg text-md font-semibold">{{ item.value }}</h2>
                 <p class="text-[rgba(29,29,29,0.4)] leading-relaxed lg:text-md text-sm">{{ item.text }}</p>
               </div>
             </div>
 
-            <div class="mr-3">
+            <div class="md:mr-3">
             <a v-if="i < 1" href="/signup"
-              class="text-md md:w-auto md:inline block w-full mt-3 text-center bg-black p-2 px-4 rounded-3xl font-semibold leading-6 text-gray-100">
+              class="text-md md:w-auto md:inline whitespace-nowrap block w-full mt-3 text-center bg-black p-2 px-4 rounded-3xl font-semibold leading-6 text-gray-100">
               <span>{{ t("Sign Up") }}</span>
               <span class="ml-2">&rarr;</span>
             </a>
@@ -199,7 +200,6 @@
 <script>
 // import { ArrowSmallRightIcon, ArrowSmallLeftIcon } from "@heroicons/vue/24/outline";
 import axios from "axios";
-
 export default {
 
   data() {

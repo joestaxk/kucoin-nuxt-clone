@@ -1,11 +1,11 @@
 <template>
-    <section class="w-full min-h-[70vh] flex flex-col items-center mt-[5rem]">
+    <section class="w-full min-h-[70vh] flex flex-col items-center md:mt-[5rem] mt-[3rem]">
         <div class="xl:min-w-[1300px] min-w-full xl:p-0 p-5">
             <div class="w-full flex flex-col items-center">
-                <h1 class="xl:text-[2.3rem] lg:text-[2rem] text-[1.6rem] text-center font-bold">ZiHuX Always Puts User Asset
+                <h1 class="xl:text-[2.3rem] lg:text-[2rem] md:text-[1.6rem] text-xl text-center font-bold">ZiHuX Always Puts User Asset
                     Safety First</h1>
                 <a href="/signup"
-                    class="text-xl  mt-5 text-center bg-black  p-3 px-7 rounded-3xl font-semibold leading-6 text-gray-100">
+                    class="md:text-xl text-md mt-5 text-center bg-black  p-3 px-7 rounded-3xl font-semibold leading-6 text-gray-100">
                     Learn More &rarr;
                 </a>
             </div>
