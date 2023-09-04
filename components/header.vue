@@ -1,11 +1,11 @@
 <template>
     <header class="bg-white fixed top-0 left-0 w-full z-20">
-      <nav class="mx-auto flex items-center justify-between p-4 lg:px-6" aria-label="Global">
+      <nav class="mx-auto flex items-center justify-between  p-4 lg:px-6" aria-label="Global">
         <div class="flex md:flex-1 gap-4 items-center divide-x divide-gray-300 text-sm">
             <a href="#" class="-m-1.5">
                 <span class="sr-only">Your Company</span>
                 <div class="">
-                  <img class="h-20" src="/zihux_logo.png" alt="" />
+                  <img class="h-full w-14" src="/zihux_logo.png" alt="" />
                 </div>
             </a>
 
