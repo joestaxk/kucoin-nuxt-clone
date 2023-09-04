@@ -1,5 +1,5 @@
 <template>
-    <section class="w-full min-h-[110vh] flex justify-center"
+    <section class="w-full min-h-[100vh] flex justify-center"
         :style="{ background: 'rgba(0, 0, 0, 0) linear-gradient(rgba(43, 83, 238, 0) 0%, rgba(70, 88, 241, 0.07) 30.73%, rgba(72, 98, 199, 0.12) 100%) repeat scroll 0% 0%' }">
         <div class="xl:w-[1100px] xl:p-0 p-5 w-full flex flex-col items-center">
             <div class="py-10 mt-10">
