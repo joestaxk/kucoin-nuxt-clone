@@ -1,15 +1,15 @@
 <template>
-    <section class="w-full min-h-[100vh] flex justify-center"
+    <section class="w-full h-full flex justify-center"
         :style="{ background: 'rgba(0, 0, 0, 0) linear-gradient(rgba(43, 83, 238, 0) 0%, rgba(70, 88, 241, 0.07) 30.73%, rgba(72, 98, 199, 0.12) 100%) repeat scroll 0% 0%' }">
-        <div class="xl:w-[1100px] xl:p-0 p-5 w-full flex flex-col items-center">
+        <div class="xl:w-[1200px] xl:p-0 p-5 w-full flex flex-col items-center">
             <div class="py-10 mt-10">
-                <h1 class="lg:text-4xl md:text-3xl text-2xl text-center font-semibold">Explore KuCoin Products & Services</h1>
+                <h1 class="lg:text-4xl md:text-3xl text-xl text-center font-semibold">Explore KuCoin Products & Services</h1>
             </div>
 
-            <div class="w-full mt-6">
+            <div class="w-full md:mt-6 md:py-8">
                 <div class=" w-full flex flex-wrap gap-8">
-                    <div class="xl:w-[48%] w-full bg-white p-11 rounded-xl cursor-pointer hover:-translate-y-2 transition-all duration-300"  v-for="data in explore" :key="data.name">
-                        <div class="flex justify-between items-center mb-4">
+                    <div class="lg:w-[48%] w-full bg-white md:p-11 p-5 rounded-xl cursor-pointer hover:-translate-y-2 transition-all duration-300"  v-for="data in explore" :key="data.name">
+                        <div class="flex md:justify-between md:gap-0 gap-3 items-center mb-4">
                             <h2 class="md:text-2xl text-lg font-semibold">{{ data.name }}</h2>
                             <span class="text-lg font-bold">&rarr;</span>
                         </div>
@@ -34,6 +34,14 @@ export default {
                 {
                     name: "Buy Crypto",
                     desc: "Purchase crypto quickly and easily on our popular and industry-leading platform."
+                },
+                {
+                    name: "Crypto Derivatives",
+                    desc: "We are the best crypto exchange for trading crypto futures."
+                },
+                {
+                    name: "KuCoin Earn",
+                    desc: "Invest and earn steady income with the help of a professional asset manager."
                 },
                 {
                     name: "Trading Bot",

@@ -1,34 +1,40 @@
 <template>
     <section class="w-full min-h-[70vh] flex flex-col items-center md:mt-[5rem] mt-[3rem]">
-        <div class="xl:min-w-[1300px] min-w-full xl:p-0 p-5">
+        <div class="xl:min-w-[1200px] min-w-full xl:p-0 md:p-5 p-2">
             <div class="w-full flex flex-col items-center">
-                <h1 class="xl:text-[2.3rem] lg:text-[2rem] md:text-[1.6rem] text-xl text-center font-bold">ZiHuX Always Puts User Asset
-                    Safety First</h1>
+                <h1 class="xl:text-[2.1rem] lg:text-[2rem] md:text-[1.6rem] text-xl text-center font-bold">
+                    Your Safe and Trusted Crypto Exchange
+                </h1>
                 <a href="/signup"
-                    class="md:text-xl text-md mt-5 text-center bg-black  p-3 px-7 rounded-3xl font-semibold leading-6 text-gray-100">
+                    class="md:text-lg text-md mt-5 text-center bg-black  p-3 px-7 rounded-3xl font-semibold leading-6 text-gray-100">
                     Learn More &rarr;
                 </a>
             </div>
 
             <div class="flex md:justify-around flex-wrap gap-5 mt-[4rem]">
-                <div v-for="(item, i) in safetySec" :key="i" class="md:w-[300px] w-full flex flex-col items-center">
-                    <div class="">
-                        <img :src="item.src" alt="" />
+                <div v-for="(item, i) in safetySec" :key="i" class="md:w-[300px] w-full flex md:flex-col gap-5 items-center ">
+                    <div class="min-w-max">
+                        <img :src="item.src" class="md:w-auto w-14" alt="" />
                     </div>
-                    <h2 class="lg:text-xl text-md font-semibold text-center mb-5">{{ item.value }}</h2>
-                    <p class="text-[rgba(29,29,29,0.4)] leading-relaxed lg:text-[16px] text-sm">{{ item.msg }}</p>
+                    
+                    <h2 class="md:block hidden lg:text-xl text-md font-semibold text-center mb-5">{{ item.value }}</h2>
+                    <p class="md:block hidden text-[rgba(29,29,29,0.4)] leading-relaxed lg:text-[16px] text-sm">{{ item.msg }}</p>
+                    <div class="md:hidden block">
+                        <h2 class="lg:text-xl text-md font-semibold md:text-center md:mb-5 mb-2">{{ item.value }}</h2>
+                         <p class="text-[rgba(29,29,29,0.4)] leading-relaxed lg:text-[16px] text-sm">{{ item.msg }}</p>
+                    </div>
                 </div>
             </div>
         </div>
 
         <div class="min-w-full flex flex-wrap lg:flex-row flex-col-reverse xl:p-0 p-5 md:mt-[3rem] mt-[1rem]">
             <div class="lg:w-1/2 w-[100%]">
-                <img src="/phone.svg" class="w-[80%]" alt="" />
+                <img src="/phone.svg" alt="" />
             </div>
 
             <div class="mt-[4rem] lg:pl-0 md:pl-[4rem] ">
                 <h1 class="lg:text-4xl text-2xl font-semibold mb-5">Trade Anytime, Anywhere</h1>
-                <p class="text-[rgba(29,29,29,0.4)] leading-relaxed lg:text-[18px] text-md">The ZiHuX app and website allow
+                <p class="text-gray-600 leading-relaxed lg:text-[18px] text-sm">The ZiHuX app and website allow
                     you to trade crypto with ease.</p>
 
                 <div class="">
@@ -83,11 +89,11 @@
         </div>
 
         <!-- Kucoin by your side -->
-        <div class="flex justify-center p-4">
-            <div class="xl:w-[1300px] w-full">
-                <h1 class="lg:text-3xl text-2xl font-bold mb-[2rem]">ZiHuX by Your Side</h1>
-                <div class="flex md:flex-nowrap flex-wrap gap-5">
-                    <div class="flex flex-col md:w-1/2 w-full h-[300px] md:p-8 p-4 rounded-2xl bg-gray-100">
+        <div class="flex justify-center p-4 mt-10">
+            <div class="xl:w-[1200px] w-full">
+                <h1 class="lg:text-4xl text-2xl font-bold mb-[2rem]">ZiHuX by Your Side</h1>
+                <div class="flex md:flex-nowrap flex-wrap gap-8">
+                    <div class="flex flex-col md:w-1/2 w-full h-[300px] md:p-8 p-4 rounded-2xl bg-gray-50">
                         <div class="grow">
                             <div class="">
                                 <h2 class="text-2xl font-semibold mb-2">24/7 Customer Service</h2>

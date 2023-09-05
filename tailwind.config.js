@@ -13,7 +13,9 @@ module.exports = {
       colors: {
         kcoin: "#7289DA",
         dark: "#01081e",
-        black: "rgb(29,29,29)"
+        black: "rgb(29,29,29)",
+        green: "rgb(1,188,141)",
+        red: "rgb(246,103,84)"
       },
     },
   }, 
