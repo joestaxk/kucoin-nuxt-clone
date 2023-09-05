@@ -143,7 +143,7 @@
 
     <!-- MAGIC BOX AND STEP GUIDE -->
     <div
-      class="xl:w-[1200px] md:mt-[1.3rem] w-full h-full p-5 flex gap-5 lg:justify-between items-center lg:flex-row flex-col">
+      class="xl:w-[1200px] md:mt-[2rem] md:py-20 w-full h-full p-5 flex gap-5 lg:justify-between items-center lg:flex-row flex-col">
       <div class="lg:w-1/3 lg:block hidden">
         <img src="/magicbox.png" width="250" height="250" class="object-cover" alt="magicbox" />
       </div>
