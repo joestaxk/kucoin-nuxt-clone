@@ -28,68 +28,77 @@
         </div>
 
         <div class="min-w-full flex flex-wrap lg:flex-row flex-col-reverse xl:p-0 p-5 md:mt-[3rem] mt-[1rem]">
-            <div class="lg:w-1/2 w-[100%]">
-                <img src="/phone.svg" alt="" />
+            <div class="lg:w-1/2 w-[60%]">
+                <img src="/phone.png" class="w-[80%]" alt="" />
             </div>
 
             <div class="mt-[4rem] lg:pl-0 md:pl-[4rem] ">
-                <h1 class="lg:text-4xl text-2xl font-semibold mb-5">Trade Anytime, Anywhere</h1>
-                <p class="text-gray-600 leading-relaxed lg:text-[18px] text-sm">The ZiHuX app and website allow
+                <h1 class="lg:text-4xl text-2xl font-semibold mb-3">Trade Anytime, Anywhere</h1>
+                <p class="text-gray-400 leading-relaxed lg:text-[18px] text-xs">The ZiHuX app and website allow
                     you to trade crypto with ease.</p>
 
-                <div class="">
-                    <div class="flex items-center mb-[2.4rem] mt-[3rem] gap-2">
-                        <svg width="25" height="25" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <rect width="24" height="24" rx="12" fill="#1D1D1D" />
-                            <path d="M14 6.5L10.75 12L9.9375 13.375L9.53125 14.0625" stroke="white" stroke-width="2"
-                                stroke-linecap="round" stroke-linejoin="round" />
-                            <path d="M7.5 17.5L7.90625 16.8125" stroke="white" stroke-width="2" stroke-linecap="round"
-                                stroke-linejoin="round" />
-                            <path d="M6 14.5H11.5" stroke="white" stroke-width="2" stroke-linecap="round"
-                                stroke-linejoin="round" />
-                            <path d="M15 14.5H18" stroke="white" stroke-width="2" stroke-linecap="round"
-                                stroke-linejoin="round" />
-                            <path d="M9.5 6.5L11.25 9.25L11.6875 9.9375" stroke="white" stroke-width="2"
-                                stroke-linecap="round" stroke-linejoin="round" />
-                            <path d="M16.5 17.5L14.75 14.75L13.875 13.375L13.4375 12.6875" stroke="white" stroke-width="2"
-                                stroke-linecap="round" stroke-linejoin="round" />
-                        </svg>
-                        <h3 class="lg:text-xl text-md font-semibold">App Store</h3>
-                    </div>
-                    <!-- Add other app store links here -->
-                    <div class="flex items-center mb-[2.4rem] gap-2">
-                        <svg width="25" height="25" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path fillRule="evenodd" clipRule="evenodd"
-                                d="M3.196 20.8223L11.939 12.0953L3.196 3.35228C2.981 3.69928 2.832 4.26228 2.832 5.07428V19.1003C2.832 19.9113 2.981 20.4743 3.196 20.8223ZM15.63 15.7873L12.766 12.9073L4.256 21.4343H4.339C5.067 21.4343 5.696 21.1693 6.706 20.6233L15.631 15.7873H15.63ZM16.704 8.96528L13.591 12.0953L16.704 15.2083L18.592 14.1813C19.287 13.8013 20.347 13.1053 20.347 12.0953C20.347 11.0683 19.287 10.3723 18.592 9.99128L16.704 8.96528ZM4.256 2.73828L12.766 11.2663L15.631 8.38628L6.706 3.55028C5.696 3.00328 5.067 2.73828 4.339 2.73828H4.256Z"
-                                fill="black" />
-                        </svg>
-                        <h3 class="lg:text-xl text-md font-semibold">Google Play</h3>
-                    </div>
+                    <div class="flex items-center mt-[2rem]">
+                        <div class="space-y-[3.5rem]">
+                            <div class="flex items-center gap-2">
+                                <svg width="25" height="25" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="24" height="24" rx="12" fill="#1D1D1D" />
+                                    <path d="M14 6.5L10.75 12L9.9375 13.375L9.53125 14.0625" stroke="white" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                    <path d="M7.5 17.5L7.90625 16.8125" stroke="white" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path d="M6 14.5H11.5" stroke="white" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path d="M15 14.5H18" stroke="white" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path d="M9.5 6.5L11.25 9.25L11.6875 9.9375" stroke="white" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                    <path d="M16.5 17.5L14.75 14.75L13.875 13.375L13.4375 12.6875" stroke="white" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                                <h3 class="lg:text-xl text-md font-semibold">App Store</h3>
+                            </div>
+                            <!-- Add other app store links here -->
+                            <div class="flex items-center gap-2">
+                                <svg width="25" height="25" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fillRule="evenodd" clipRule="evenodd"
+                                        d="M3.196 20.8223L11.939 12.0953L3.196 3.35228C2.981 3.69928 2.832 4.26228 2.832 5.07428V19.1003C2.832 19.9113 2.981 20.4743 3.196 20.8223ZM15.63 15.7873L12.766 12.9073L4.256 21.4343H4.339C5.067 21.4343 5.696 21.1693 6.706 20.6233L15.631 15.7873H15.63ZM16.704 8.96528L13.591 12.0953L16.704 15.2083L18.592 14.1813C19.287 13.8013 20.347 13.1053 20.347 12.0953C20.347 11.0683 19.287 10.3723 18.592 9.99128L16.704 8.96528ZM4.256 2.73828L12.766 11.2663L15.631 8.38628L6.706 3.55028C5.696 3.00328 5.067 2.73828 4.339 2.73828H4.256Z"
+                                        fill="black" />
+                                </svg>
+                                <h3 class="lg:text-xl text-md font-semibold">Google Play</h3>
+                            </div>
 
-                    <div class="flex items-center mb-[2.4rem] gap-2">
-                        <svg width="25" height="25" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M21.9506 18H2.04932C2.55104 12.9467 6.8146 9 12 9C17.1853 9 21.4489 12.9467 21.9506 18Z"
-                                fill="#333333" stroke="#333333" strokeWidth="2" strokeLinejoin="round" />
-                            <path d="M7 10L5 6.5" stroke="#333333" strokeWidth="2" strokeLinecap="round"
-                                strokeLinejoin="round" />
-                            <path d="M16.5 10L18.5 6.5" stroke="#333333" strokeWidth="2" strokeLinecap="round"
-                                strokeLinejoin="round" />
-                            <path
-                                d="M7.5 15.5C8.05228 15.5 8.5 15.0523 8.5 14.5C8.5 13.9477 8.05228 13.5 7.5 13.5C6.94772 13.5 6.5 13.9477 6.5 14.5C6.5 15.0523 6.94772 15.5 7.5 15.5Z"
-                                fill="white" />
-                            <path
-                                d="M16.5 15.5C17.0523 15.5 17.5 15.0523 17.5 14.5C17.5 13.9477 17.0523 13.5 16.5 13.5C15.9477 13.5 15.5 13.9477 15.5 14.5C15.5 15.0523 15.9477 15.5 16.5 15.5Z"
-                                fill="white" />
-                        </svg>
-                        <h3 class="lg:text-xl text-md font-semibold">Android APK</h3>
+                            <div class="flex items-center gap-2">
+                                <svg width="25" height="25" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M21.9506 18H2.04932C2.55104 12.9467 6.8146 9 12 9C17.1853 9 21.4489 12.9467 21.9506 18Z"
+                                        fill="#333333" stroke="#333333" strokeWidth="2" strokeLinejoin="round" />
+                                    <path d="M7 10L5 6.5" stroke="#333333" strokeWidth="2" strokeLinecap="round"
+                                        strokeLinejoin="round" />
+                                    <path d="M16.5 10L18.5 6.5" stroke="#333333" strokeWidth="2" strokeLinecap="round"
+                                        strokeLinejoin="round" />
+                                    <path
+                                        d="M7.5 15.5C8.05228 15.5 8.5 15.0523 8.5 14.5C8.5 13.9477 8.05228 13.5 7.5 13.5C6.94772 13.5 6.5 13.9477 6.5 14.5C6.5 15.0523 6.94772 15.5 7.5 15.5Z"
+                                        fill="white" />
+                                    <path
+                                        d="M16.5 15.5C17.0523 15.5 17.5 15.0523 17.5 14.5C17.5 13.9477 17.0523 13.5 16.5 13.5C15.9477 13.5 15.5 13.9477 15.5 14.5C15.5 15.0523 15.9477 15.5 16.5 15.5Z"
+                                        fill="white" />
+                                </svg>
+                                <h3 class="lg:text-xl text-md font-semibold">Android APK</h3>
+                            </div>
+                        </div>
+
+                        <div class="relative ml-2">
+                            <div style="width: 50px;height: 82px;border-radius: 0px 25px 0px 0px;border-style: solid;border-width: 1px;border-image: none 100% / 1 / 0 stretch;border-color: rgb(231, 231, 231) rgb(231, 231, 231) transparent transparent;">
+                            </div>
+                            <div style="width: 100px;margin-left: 0px;border-top: 1px solid rgb(231, 231, 231);"></div>
+                            <div style="width: 50px;height: 82px;border-radius: 0px 0px 25px;border-style: solid;border-width: 1px;border-image: none 100% / 1 / 0 stretch;border-color: transparent rgb(231, 231, 231) rgb(231, 231, 231) transparent"></div>
+                        </div>
                     </div>
-                </div>
             </div>
         </div>
 
         <!-- Kucoin by your side -->
-        <div class="flex justify-center p-4 mt-10">
+        <div class="flex justify-center p-4 mt-[5rem]">
             <div class="xl:w-[1200px] w-full">
                 <h1 class="lg:text-4xl text-2xl font-bold mb-[2rem]">ZiHuX by Your Side</h1>
                 <div class="flex md:flex-nowrap flex-wrap gap-8">

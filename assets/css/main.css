@@ -11,6 +11,23 @@
   background-position: 100% 0%;
   background-size: contain;
 }
+
+
+.coverlg{
+  background: linear-gradient(rgb(114, 137, 218, 0.2) 0%, rgba(255, 255, 255, 0) 100%),url('/covermd.png');
+  background-repeat: no-repeat;
+  background-position: 100% 0%;
+  background-size: contain;
+}
+
+
+.coversm{
+  background: linear-gradient(rgb(114, 137, 218, 0.2) 0%, rgba(255, 255, 255, 0) 100%),url('/coversm.png');
+  background-repeat: no-repeat;
+  background-position: 100% 0%;
+  background-size: contain;
+}
+
 @media screen and (max-width: 1200px) {
   .coverbg {
     background-position: -189% 0%;

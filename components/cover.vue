@@ -1,18 +1,20 @@
 <template>
     <section class="relative z-2 w-full h-full md:mt-[4rem] mt-[3rem]">
-      <div class="coverbg w-full h-full absolute"></div>
+      <div class="coverbg w-full h-[60vh] absolute z-0"></div>
+      <!-- <div class="coverbg w-full h-full absolute z-0"></div> -->
+      <!-- <div class="coversm w-full h-full absolute"></div> -->
       <!-- <img src="./coversvg.svg" class="absolute top-0 right-0 md:block xl:translate-x-0 translate-x-48"/> -->
-      <div class="inset-0 flex justify-center items-center p-10 h-full z-3 pt-[7rem] pl-[1rem] translate-y-16 mb-10 md:translate-y-0">
+      <div class="inset-0 flex justify-center items-center p-10 h-full z-3 md:pt-[7rem] pt-[5rem] pl-[1rem] translate-y- mb-10 md:translate-y-0">
         <div class="w-[1200px]">
             <h1 class="xl:text-[56px] lg:text-[3.4rem] md:text-[3rem] text-[2rem] leading-tight font-bold">{{ t("Find the Next") }}</h1>
             <h1 class="xl:text-[56px] lg:text-[3.4rem] md:text-[3rem] text-[2rem] leading-tight font-bold"><span class="text-kcoin">{{ t("Crypto Gem") }}</span> {{ t("on ZiHuX") }}</h1>
             <p class="text-[rgba(29,29,29,0.4)] leading-relaxed mt-3 md:text-[1.3rem] text-sm">{{ t("1 Out of 4 Crypto Holders Worldwide Is with ZiHuX") }}</p>
       
-            <div class="pt-[3rem] md:w-[500px] w-[300px]">    
+            <div class="mt-[2rem] md:w-[500px] w-[300px]">    
               <div class="mb-2 overflow-hidden p-2 flex justify-between border border-gray-300 rounded-full">
                 <input
                   type="text"
-                  class="md:p-2 w-full text-gray-50 text-sm md:text-lg bg-transparent outline-none font-semibold"
+                  class="md:p-2 md:pl-3 w-full text-gray-50 text-sm md:text-lg bg-transparent outline-none font-medium"
                   placeholder="Email/Phone Number"
                 />
                 <a>
@@ -34,7 +36,7 @@
       </div>
     </section>
     
-    <div class="flex xl:justify-center w-full p-5 mb-[9rem]">
+    <div class="flex xl:justify-center w-full p-5 mt-[7rem]">
       <div class="w-full md:w-full xl:w-[1200px] grid grid-cols-2 gap-5 md:flex md:justify-between justify-start md:items-center md:divide-x-2 divide-gray-200">
         <div class="">
           <h1 class="md:text-[1.7rem] text-[1.2rem] leading-relaxed font-bold">200+</h1>

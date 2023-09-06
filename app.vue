@@ -6,6 +6,7 @@
   import DistributionSection from './components/distributionSection.vue'
   import Faq from './components/faq.vue'
   import Banner from './components/banner.vue'
+  import Footer from './components/footer.vue'
 
 </script>
 
@@ -18,5 +19,6 @@
     <DistributionSection/>
     <Faq />
     <Banner />
+    <Footer />
   <!-- </ClientOnly> -->
 </template>

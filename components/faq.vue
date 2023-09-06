@@ -4,9 +4,9 @@
                 <div class="w-[1200px] xl:p-0 p-5">
                     <h1 class="flex mb-10 font-bold text-4xl">FAQ</h1>
 
-                    <div v-for="(item, index) in faqs" :key="index" class="bg-gray-100 p-5 rounded-2xl mb-5 h-[100px] overflow-hidden transition duration-200" :class="[accordianState[index] ? 'h-fit' : 'h-[100px]']">
+                    <div v-for="(item, index) in faqs" :key="index" class="bg-gray-100 p-5 rounded-2xl mb-5 overflow-hidden transition duration-200" :class="[accordianState[index] ? 'h-fit' : 'h-[100px]']">
                         <div class="flex  justify-between p-5" @click="accordian(index)">
-                            <h2 class="text-[1.3rem] font-semibold">{{ item.question }}</h2>
+                            <h2 class="text-[1.3rem] font-semibold text-gray-700">{{ item.question }}</h2>
                             
                             <button v-if="!accordianState[index]">
                                 <svg class="w-6 h-6" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" fill="currentColor"><path d="M554.656 341.344a42.656 42.656 0 00-85.312 0v128h-128a42.656 42.656 0 000 85.312h128v128a42.656 42.656 0 0085.312 0v-128h128a42.656 42.656 0 000-85.312h-128v-128z"></path><path d="M512 42.656C252.8 42.656 42.656 252.768 42.656 512S252.768 981.344 512 981.344c259.2 0 469.344-210.112 469.344-469.344S771.232 42.656 512 42.656zM128 512c0-212.096 171.904-384 384-384s384 171.904 384 384-171.904 384-384 384-384-171.904-384-384z"></path></svg>
@@ -37,7 +37,7 @@
                         question: "What is Bitcoin?",
                         answers: `Bitcoin is a digital currency that operates on a peer-to-peer network, which means it's not controlled by any central authority.
                             Users can send and receive Bitcoin directly, without intermediaries, making it a fast and low-cost way to transfer value. 
-                            As one of the world's most popular crypto exchange platforms, ZiHuX makes it easy to buy and sell Bitcoin and hundreds of other cryptocurrencies.`
+                            As one of the world'5res most popular crypto exchange platforms, ZiHuX makes it easy to buy and sell Bitcoin and hundreds of other cryptocurrencies.`
                     },
                     {
                         question: "Is ZiHuX a safe cryptocurrency exchange?",
