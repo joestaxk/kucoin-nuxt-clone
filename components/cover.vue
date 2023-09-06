@@ -4,10 +4,10 @@
       <!-- <div class="coverbg w-full h-full absolute z-0"></div> -->
       <!-- <div class="coversm w-full h-full absolute"></div> -->
       <!-- <img src="./coversvg.svg" class="absolute top-0 right-0 md:block xl:translate-x-0 translate-x-48"/> -->
-      <div class="inset-0 flex justify-center items-center p-10 h-full z-3 md:pt-[7rem] pt-[5rem] pl-[1rem] translate-y- md:mb-10 md:translate-y-0">
-        <div class="w-[1200px] pl-10 z-2">
+      <div class="relative inset-0 z-10 flex justify-center items-center p-10 h-full z-3 md:pt-[7rem] pt-[5rem] pl-[1rem] translate-y- md:mb-10 md:translate-y-0">
+        <div class="w-[1200px] pl-2 z-2">
             <h1 class="xl:text-[56px] lg:text-[3.4rem] md:text-[3rem] text-[2rem] leading-tight font-bold">{{ t("Find the Next") }}</h1>
-            <h1 class="xl:text-[56px] lg:text-[3.4rem] md:text-[3rem] text-[2rem] leading-tight font-bold"><span class="text-kcoin">{{ t("Crypto Gem") }}</span> {{ t("on ZiHuX") }}</h1>
+            <h1 class="xl:text-[56px] lg:text-[3.4rem] md:text-[3rem] text-[2rem] z-index leading-tight font-bold"><span class="text-kcoin">{{ t("Crypto Gem") }}</span> {{ t("on ZiHuX") }}</h1>
             <p class="text-[rgba(29,29,29,0.4)] leading-relaxed mt-3 md:text-[1.3rem] text-sm">{{ t("1 Out of 4 Crypto Holders Worldwide Is with ZiHuX") }}</p>
       
             <div class="mt-[2rem] md:w-[500px] w-[300px]">    

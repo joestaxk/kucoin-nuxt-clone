@@ -27,12 +27,12 @@
             </div>
         </div>
 
-        <div class="min-w-full flex flex-wrap lg:flex-row flex-col-reverse xl:p-0 p-5 md:mt-[3rem] mt-[1rem]">
-            <div class="lg:w-1/2 w-[60%]">
-                <img src="/phone.png" class="w-[80%]" alt="" />
+        <div class="min-w-full flex flex-wrap lg:flex-row flex-col-reverse xl:p-0 md:p-5 p-0 md:mt-[3rem] mt-[1rem]">
+            <div class="lg:w-1/2 md:w-[60%] w-full lg:mt-0 mt-10">
+                <img src="/phone.png" class="md:w-[80%] w-full " alt="" />
             </div>
 
-            <div class="mt-[4rem] lg:pl-0 md:pl-[4rem] ">
+            <div class="mt-[4rem] lg:pl-0 md:pl-[4rem] pl-5">
                 <h1 class="lg:text-4xl text-2xl font-semibold mb-3">Trade Anytime, Anywhere</h1>
                 <p class="text-gray-400 leading-relaxed lg:text-[18px] text-xs">The ZiHuX app and website allow
                     you to trade crypto with ease.</p>
@@ -100,12 +100,12 @@
         <!-- Kucoin by your side -->
         <div class="flex justify-center p-4 mt-[5rem]">
             <div class="xl:w-[1200px] w-full">
-                <h1 class="lg:text-4xl text-2xl font-bold mb-[2rem]">ZiHuX by Your Side</h1>
+                <h1 class="lg:text-4xl md:text-2xl text-xl font-bold mb-[2rem]">ZiHuX by Your Side</h1>
                 <div class="flex md:flex-nowrap flex-wrap gap-8">
-                    <div class="flex flex-col md:w-1/2 w-full h-[300px] md:p-8 p-4 rounded-2xl bg-gray-50">
-                        <div class="grow">
+                    <div class="flex flex-col md:w-1/2 w-full md:h-[300px] h-fit md:p-8 p-4 rounded-2xl bg-gray-50">
+                        <div class="md:grow md:mb-0 mb-10">
                             <div class="">
-                                <h2 class="text-2xl font-semibold mb-2">24/7 Customer Service</h2>
+                                <h2 class="md:text-2xl text-lg font-semibold mb-2">24/7 Customer Service</h2>
                                 <p class="text-[rgba(29,29,29,0.4)] leading-relaxed lg:text-[15px] text-sm">Contact
                                     ZiHuX customer support with your questions at any time.</p>
                             </div>
@@ -119,10 +119,10 @@
                     </div>
 
 
-                    <div class="flex flex-col divide-x-4 bg-[#7289da34] rounded-2xl md:w-1/2 h-[300px] md:p-8 p-4">
-                        <div class="grow">
+                    <div class="flex flex-col divide-x-4 bg-[#7289da34] rounded-2xl md:w-1/2 md:h-[300px] h-fit md:p-8 p-4">
+                        <div class="md:grow md:mb-0 mb-5">
                             <div class="">
-                                <h2 class="text-2xl font-semibold mb-2">Join Our Community</h2>
+                                <h2 class="md:text-2xl text-lg font-semibold mb-2">Join Our Community</h2>
                                 <p class="text-[rgba(29,29,29,0.4)] leading-relaxed lg:text-[15px] text-sm">The KuCoin
                                     Global Community is home to millions of users from 200+ countries, with support for 20+
                                     languages.</p>
