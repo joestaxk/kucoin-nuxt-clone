@@ -49,10 +49,10 @@
                 </PopoverGroup>
             </div>
         </div>
-        <div class="flex flex-1 justify-end gap-4 items-center ">
-          <div class="flex items-center gap-4">
+        <div class="flex flex-1 justify-end md:gap-4 gap-2 items-center ">
+          <div class="flex items-center md:gap-4">
             <a href="#" class="text-sm font-semibold leading-6 text-gray-800 hidden md:block">Log In </a>
-            <a href="#" class="text-sm font-semibold leading-6  bg-[#0c0c0c] block rounded-full px-4 py-1 text-white">Sign Up </a>
+            <a href="#" class="text-sm font-semibold leading-6  bg-[#0c0c0c] block rounded-full whitespace-nowrap px-4 py-1 text-white">Sign Up </a>
           </div>
 
           <div class="h-5 w-[.5px] bg-gray-300 "></div>
