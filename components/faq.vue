@@ -17,7 +17,7 @@
                         </div>
                         <!-- <div class="w-full h-[.1rem] bg-gray-200 mt-3"></div> -->
 
-                        <div :class="[accordianState[index] ? 'h-fit' : 'hidden']" class="border-t p-10 px-5 text-lg text-gray-600 leading-relaxed">
+                        <div :class="[accordianState[index] ? 'h-fit' : 'hidden']" class="border-t p-10 px-5 md:text-lg text-md text-gray-600 leading-relaxed">
                            {{ item.answers }}
                         </div>
                     </div>
