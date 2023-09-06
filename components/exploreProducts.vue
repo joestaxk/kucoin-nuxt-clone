@@ -14,8 +14,8 @@
                             <span class="text-lg font-bold">&rarr;</span>
                         </div>
                         <div class="flex items-center">
-                            <p class="text-gray-500 md:w-1/2 md:text-md text-sm">{{ data.desc }}</p>
-                            <img :src="data.icon" alt="icon" class="absolute md:block hidden right-0 bottom-2">
+                            <p class="text-gray-500 md:w-1/2 w-[80%] md:text-md text-sm">{{ data.desc }}</p>
+                            <img :src="data.icon" alt="icon" class="absolute right-0 bottom-2 md:w-auto w-24">
                         </div>
                     </div>
                 </div>
