@@ -4,12 +4,12 @@
         <div class="flex md:flex-1 gap-4 items-center divide-x divide-gray-300 text-sm">
             <a href="#" class="-m-1.5">
                 <span class="sr-only">Your Company</span>
-                <div class="">
-                  <img class="h-full w-fit -translate-x-10 " src="/zihux_logo.svg" alt="" />
+                <div class=" overflow-hidden">
+                  <img class="relative h-[50px] w-full -translate-x-10 " src="/zihux_logo.svg" alt="" />
                 </div>
             </a>
 
-            <div class="pl-4">
+            <div class="pl-4 -translate-x-16">
                 <PopoverGroup class="hidden lg:flex lg:gap-x-4">
                 <Popover class="relative">
                     <PopoverButton class="flex items-center gap-x-1 text-sm font-semibold leading-6 text-gray-900">

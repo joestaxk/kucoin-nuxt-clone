@@ -1,10 +1,10 @@
 <template>
-    <section class="relative z-2 w-full h-full md:mt-[4rem] mt-[3rem]">
+    <section class="relative z-2 w-full h-full md:mt-[5rem] mt-[3rem]">
       <div class="coverbg w-full h-[60vh] absolute z-0"></div>
       <!-- <div class="coverbg w-full h-full absolute z-0"></div> -->
       <!-- <div class="coversm w-full h-full absolute"></div> -->
       <!-- <img src="./coversvg.svg" class="absolute top-0 right-0 md:block xl:translate-x-0 translate-x-48"/> -->
-      <div class="relative inset-0 z-10 flex justify-center items-center p-10 h-full z-3 md:pt-[7rem] pt-[5rem] pl-[1rem] translate-y- md:mb-10 md:translate-y-0">
+      <div class="relative inset-0 z-10 flex justify-center items-center p-10 h-full z-3 md:pt-[10rem] pt-[7rem] pl-[1rem] md:mb-10 ">
         <div class="w-[1200px] pl-2 z-2">
             <h1 class="xl:text-[56px] lg:text-[3.4rem] md:text-[3rem] text-[2rem] leading-tight font-bold">{{ t("Find the Next") }}</h1>
             <h1 class="xl:text-[56px] lg:text-[3.4rem] md:text-[3rem] text-[2rem] z-index leading-tight font-bold"><span class="text-kcoin">{{ t("Crypto Gem") }}</span> {{ t("on ZiHuX") }}</h1>
@@ -14,7 +14,7 @@
               <div class="mb-2 overflow-hidden p-2 flex justify-between border border-gray-300 rounded-full">
                 <input
                   type="text"
-                  class="md:p-2 md:pl-3 w-full text-black-50 text-sm md:text-lg bg-transparent outline-none font-medium"
+                  class="md:p-2 md:pl-3 w-full text-black text-sm md:text-lg bg-transparent outline-none font-medium"
                   placeholder="Email/Phone Number"
                 />
                 <a>
