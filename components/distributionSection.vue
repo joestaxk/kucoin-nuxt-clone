@@ -34,7 +34,7 @@
 
             <div class="mt-[4rem] lg:pl-0 md:pl-[4rem] pl-5">
                 <h1 class="lg:text-4xl text-2xl font-semibold mb-3">Trade Anytime, Anywhere</h1>
-                <p class="text-gray-400 leading-relaxed lg:text-[18px] text-xs">The ZiHuX app and website allow
+                <p class="text-gray-400 leading-relaxed lg:text-[18px] text-sm">The ZiHuX app and website allow
                     you to trade crypto with ease.</p>
 
                     <div class="flex items-center mt-[2rem]">
