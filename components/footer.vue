@@ -1,50 +1,50 @@
 <template>
     <section class="h-[100vh] w-full flex justify-center">
         <div class="xl:w-[1200px] w-full">
-            <div class="bg-black">
+            <div class="">
                 <img src="/zihux_logo.png" class="" alt="logo">
             </div>
 
-            <div class="grid grid-cols-4 mt-5">
+            <div class="md:grid grid-cols-4 flex flex-wrap px-5 gap-5 mt-5">
               <div class="mt-[3rem]">
                 <h2 class="text-md text-gray-800 mb-3 font-bold">Corporate</h2>
                 <ul class="space-y-1">
-                   <li class="text-sm text-gray-400" v-for="item in corporate" :key="item"><a href="#">{{ item }}</a></li>
+                   <li class="text-sm text-gray-500" v-for="item in corporate" :key="item"><a href="#">{{ item }}</a></li>
                 </ul>
               </div>
 
               <div class="mt-[3rem]">
                 <h2 class="text-md text-gray-800 mb-3 font-bold">Products</h2>
                 <ul class="space-y-1">
-                   <li class="text-sm text-gray-400" v-for="item in products" :key="item"><a href="#">{{ item }}</a></li>
+                   <li class="text-sm text-gray-500" v-for="item in products" :key="item"><a href="#">{{ item }}</a></li>
                 </ul>
               </div>
 
               <div class="mt-[3rem]">
                 <h2 class="text-md text-gray-800 mb-3 font-bold">Service</h2>
                 <ul class="space-y-1">
-                   <li class="text-sm text-gray-400" v-for="item in service" :key="item"><a href="#">{{ item }}</a></li>
+                   <li class="text-sm text-gray-500" v-for="item in service" :key="item"><a href="#">{{ item }}</a></li>
                 </ul>
               </div>
 
               <div class="mt-[3rem]">
                 <h2 class="text-md text-gray-800 mb-3 font-bold">Business</h2>
                 <ul class="space-y-1">
-                   <li class="text-sm text-gray-400" v-for="item in business" :key="item"><a href="#">{{ item }}</a></li>
+                   <li class="text-sm text-gray-500" v-for="item in business" :key="item"><a href="#">{{ item }}</a></li>
                 </ul>
               </div>
 
               <div class="mt-[3rem]">
                 <h2 class="text-md text-gray-800 mb-3 font-bold">Legal</h2>
                 <ul class="space-y-1">
-                   <li class="text-sm text-gray-400" v-for="item in legal" :key="item"><a href="#">{{ item }}</a></li>
+                   <li class="text-sm text-gray-500" v-for="item in legal" :key="item"><a href="#">{{ item }}</a></li>
                 </ul>
               </div>
 
               <div class="mt-[3rem]">
                 <h2 class="text-md text-gray-800 mb-3 font-bold">Crypto Prices</h2>
                 <ul class="space-y-1">
-                   <li class="text-sm text-gray-400" v-for="item in CryptoPrices" :key="item"><a href="#">{{ item }}</a></li>
+                   <li class="text-sm text-gray-500" v-for="item in CryptoPrices" :key="item"><a href="#">{{ item }}</a></li>
                 </ul>
               </div>
 
@@ -52,21 +52,21 @@
               <div class="mt-[3rem]">
                 <h2 class="text-md text-gray-800 mb-3 font-bold">Learn</h2>
                 <ul class="space-y-1">
-                   <li class="text-sm text-gray-400" v-for="item in Learn" :key="item"><a href="#">{{ item }}</a></li>
+                   <li class="text-sm text-gray-500" v-for="item in Learn" :key="item"><a href="#">{{ item }}</a></li>
                 </ul>
               </div>
 
               <div class="mt-[3rem]">
                 <h2 class="text-md text-gray-800 mb-3 font-bold">Developer</h2>
                 <ul class="space-y-1">
-                   <li class="text-sm text-gray-400" v-for="item in Developer" :key="item"><a href="#">{{ item }}</a></li>
+                   <li class="text-sm text-gray-500" v-for="item in Developer" :key="item"><a href="#">{{ item }}</a></li>
                 </ul>
               </div>
 
               <div class="mt-[3rem]">
                 <h2 class="text-md text-gray-800 mb-3 font-bold">App Download</h2>
                 <ul class="space-y-1">
-                   <li class="text-sm text-gray-400" v-for="item in AppDownload" :key="item"><a href="#">{{ item }}</a></li>
+                   <li class="text-sm text-gray-500" v-for="item in AppDownload" :key="item"><a href="#">{{ item }}</a></li>
                 </ul>
               </div>
 
