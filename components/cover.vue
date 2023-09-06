@@ -14,7 +14,7 @@
               <div class="mb-2 overflow-hidden p-2 flex justify-between border border-gray-300 rounded-full">
                 <input
                   type="text"
-                  class="md:p-2 md:pl-3 w-full text-gray-50 text-sm md:text-lg bg-transparent outline-none font-medium"
+                  class="md:p-2 md:pl-3 w-full text-black-50 text-sm md:text-lg bg-transparent outline-none font-medium"
                   placeholder="Email/Phone Number"
                 />
                 <a>
