@@ -5,7 +5,7 @@
             <a href="#" class="-m-1.5">
                 <span class="sr-only">Your Company</span>
                 <div class=" overflow-hidden">
-                  <img class="relative h-[50px] w-full -translate-x-10 " src="/zihux_logo.svg" alt="" />
+                  <img class="relative h-[50px] w-full -translate-x-5 sm:-translate-x-10 " src="/zihux_logo.svg" alt="" />
                 </div>
             </a>
 
@@ -50,8 +50,8 @@
             </div>
         </div>
         <div class="flex flex-1 justify-end md:gap-4 gap-2 items-center ">
-          <div class="flex items-center md:gap-4">
-            <a href="#" class="text-sm font-semibold leading-6 text-gray-800 hidden md:block">Log In </a>
+          <div class="flex items-center gap-4">
+            <a href="#" class="text-sm font-semibold leading-6 text-gray-800 hiddn whitespace-nowrap sm:block">Log In </a>
             <a href="#" class="text-sm font-semibold leading-6  bg-[#0c0c0c] block rounded-full whitespace-nowrap px-4 py-1 text-white">Sign Up </a>
           </div>
 
