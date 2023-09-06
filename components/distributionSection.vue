@@ -27,7 +27,7 @@
             </div>
         </div>
 
-        <div class="min-w-full flex flex-wrap lg:flex-row flex-col-reverse xl:p-0 md:p-5 p-0 md:mt-[3rem] mt-[1rem]">
+        <div class="min-w-full flex flex-wrap lg:flex-row flex-col-reverse xl:p-0 p-0 md:mt-[3rem] mt-[1rem]">
             <div class="lg:w-1/2 md:w-[60%] w-full lg:mt-0 mt-10">
                 <img src="/phone.png" class="md:w-[80%] w-full " alt="" />
             </div>
@@ -37,7 +37,7 @@
                 <p class="text-gray-400 leading-relaxed lg:text-[18px] text-sm">The ZiHuX app and website allow
                     you to trade crypto with ease.</p>
 
-                    <div class="flex items-center mt-[2rem]">
+                    <div class="flex items-center justif-between mt-[2rem]">
                         <div class="space-y-[3.5rem]">
                             <div class="flex items-center gap-2">
                                 <svg width="25" height="25" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -92,6 +92,10 @@
                             </div>
                             <div style="width: 100px;margin-left: 0px;border-top: 1px solid rgb(231, 231, 231);"></div>
                             <div style="width: 50px;height: 82px;border-radius: 0px 0px 25px;border-style: solid;border-width: 1px;border-image: none 100% / 1 / 0 stretch;border-color: transparent rgb(231, 231, 231) rgb(231, 231, 231) transparent"></div>
+                        </div>
+                        <div class="relative mr-10">
+                            <!-- <img src="/zihux_logo.svg" class="w-30 z-10 absolute inset-0 top-[40%] left-[20%]" alt="zihux" srcset=""> -->
+                            <qrcode-vue class="translate-x-5 w-[500px]" :value="value" :size="size" level="H" />
                         </div>
                     </div>
             </div>
@@ -320,6 +324,7 @@
 </section></template>
   
 <script>
+import QrcodeVue from 'qrcode.vue'
 export default {
     data() {
         return {
@@ -327,8 +332,13 @@ export default {
                 { value: "Secure Asset Storage", src: "/k1.svg", msg: "Our industry-leading encryption and storage systems ensure that your assets are always safe and secure." },
                 { value: "Strong Account Security", src: "/k2.svg", msg: "We adhere to the highest security standards and implement the strictest security practices to keep your account secure." },
                 { value: "PoR — Asset Transparency", src: "/k3.svg", msg: "PoR (Proof of Reserves) is a widely used method to prove custody of assets on the blockchain, confirming that ZiHuX has the funds that cover all user assets on our books." }
-            ]
+            ],
+            value: 'https://example.com',
+            size: 100
         };
+    },
+    components: {
+        QrcodeVue
     }
 };
 </script>
