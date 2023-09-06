@@ -2,7 +2,7 @@
     <section class="h-[100vh] w-full flex justify-center">
         <div class="xl:w-[1200px] w-full">
             <div class="">
-                <img src="/zihux_logo.png" class="" alt="logo">
+                <img src="/zihux_logo.svg" class="" alt="logo">
             </div>
 
             <div class="md:grid grid-cols-4 flex flex-wrap px-5 gap-5 mt-5">

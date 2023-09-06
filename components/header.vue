@@ -5,7 +5,7 @@
             <a href="#" class="-m-1.5">
                 <span class="sr-only">Your Company</span>
                 <div class="">
-                  <img class="h-full w-14" src="/zihux_logo.png" alt="" />
+                  <img class="h-full w-fit" src="/zihux_logo.svg" alt="" />
                 </div>
             </a>
 
