@@ -85,7 +85,6 @@
                 "Join Us",
                 "Media Kit",
                 "Affiliate Program",
-                "Whistleblower Contact",
                 "Blog",
                 "News & Announcements",
                 "Referral",
@@ -97,26 +96,13 @@
                 "Convert",
                 "Futures Trading",
                 "KuCoin Earn",
-                "Crypto Lending",
                 "Trading Bot",
-                "Converter",
-                "Windvane NFT Marketplace",
-                "Halo Wallet",
-                "KuCoin Learn"
+                "Converter"
               ],
               service: [
                 "Help Center",
                 "Submit a Ticket",
-                "Fees",
-                "VIP",
-                "Ticket Verification",
-                "Technical Support",
-                "Bug Bounty",
-                "Beginner's Guide",
-                "Official Verification Center",
-                "PoR (Proof of Reserves)",
-                "Sitemap",
-                "Delistings"
+                "Fees"
               ],
 
             business :[
@@ -154,13 +140,6 @@
               "Buy Ton",
               "Buy Terra",
               "Buy SHIBA INU"
-            ],
-            Developer: [
-              "API Documentation",
-              "SDK",
-              "App Download",
-              "Android Download", 
-              "iOS Download"
             ],
             AppDownload: [
               "Android Download",
