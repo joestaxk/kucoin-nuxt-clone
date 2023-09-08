@@ -144,8 +144,7 @@
             AppDownload: [
               "Android Download",
               "iOS Download"
-            ],
-
+            ]
             }
         }
     }
