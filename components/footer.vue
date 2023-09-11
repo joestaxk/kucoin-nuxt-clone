@@ -27,12 +27,12 @@
                 </ul>
               </div>
 
-              <div class="mt-[3rem]">
+              <!-- <div class="mt-[3rem]">
                 <h2 class="text-md text-gray-800 mb-3 font-bold">Business</h2>
                 <ul class="space-y-1">
                    <li class="text-sm text-gray-500" v-for="item in business" :key="item"><a href="#">{{ item }}</a></li>
                 </ul>
-              </div>
+              </div> -->
 
               <div class="mt-[3rem]">
                 <h2 class="text-md text-gray-800 mb-3 font-bold">Legal</h2>
@@ -55,13 +55,13 @@
                    <li class="text-sm text-gray-500" v-for="item in Learn" :key="item"><a href="#">{{ item }}</a></li>
                 </ul>
               </div>
-
+<!-- 
               <div class="mt-[3rem]">
                 <h2 class="text-md text-gray-800 mb-3 font-bold">Developer</h2>
                 <ul class="space-y-1">
                    <li class="text-sm text-gray-500" v-for="item in Developer" :key="item"><a href="#">{{ item }}</a></li>
                 </ul>
-              </div>
+              </div> -->
 
               <div class="mt-[3rem]">
                 <h2 class="text-md text-gray-800 mb-3 font-bold">App Download</h2>
@@ -83,7 +83,7 @@
               corporate: [
                 "About Us",
                 "Join Us",
-                "Media Kit",
+                // "Media Kit",
                 "Affiliate Program",
                 "Blog",
                 "News & Announcements",
@@ -95,7 +95,7 @@
                 "Margin Trading",
                 "Convert",
                 "Futures Trading",
-                "KuCoin Earn",
+                // "KuCoin Earn",
                 "Trading Bot",
                 "Converter"
               ],
@@ -105,29 +105,29 @@
                 "Fees"
               ],
 
-            business :[
-              "Token Listing",
-              "KuCoin Labs",
-              "KuCoin Ventures",
-              "Spotlight Application",
-              "P2P Merchant Application",
-              "Safeguard Program"
-            ], 
+            // business :[
+            //   "Token Listing",
+            //   "KuCoin Labs",
+            //   "KuCoin Ventures",
+            //   "Spotlight Application",
+            //   "P2P Merchant Application",
+            //   "Safeguard Program"
+            // ], 
             legal: [
             "Terms of Use",
             "Privacy Policy",
             "Risk Disclosure Statement",
             "AML & CFT",
-            "Special Treatment",
-            "KuCoin Plus",
-            "Law Enforcement Requests"
+            // "Special Treatment",
+            // "KuCoin Plus",
+            // "Law Enforcement Requests"
             ],
             CryptoPrices: [
             "Bitcoin (BTC) Price",
             "Ethereum (ETH) Price",
             "Ripple (XRP) Price",
-            "KuCoin Token (KCS) Price",
-            "More Prices"
+            // "KuCoin Token (KCS) Price",
+            // "More Prices"
             ],
             Learn: [
               "Buy Bitcoin",
