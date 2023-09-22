@@ -12,13 +12,16 @@
 
 <template>
   <!-- <ClientOnly> -->
-    <Header />
+    <!-- <Header />
     <Cover />
     <CryptoMarket />
     <ExploreProducts />
     <DistributionSection/>
     <Faq />
     <Banner />
-    <Footer />
+    <Footer /> -->
+    <div class="h-[100vh] w-full bg-kcoin text-white sflex justify-center items-center">
+      <h2>Coming soon </h2>
+    </div>
   <!-- </ClientOnly> -->
 </template>
