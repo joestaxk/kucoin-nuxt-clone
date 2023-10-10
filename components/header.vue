@@ -48,7 +48,7 @@
             <a href="#" class="text-sm font-semibold leading-6  bg-[#0c0c0c] block rounded-full whitespace-nowrap px-4 py-1 text-white">Sign Up </a>
           </div>
 
-          <div class="h-5 w-[.5px] bg-gray-300 "></div>
+          <div class="h-5 w-[.5px] bg-gray-300 lg:hidden"></div>
           <button  @click="mobileMenuOpen = true" class="group w-[35px] h-[35px] rounded-full flex justify-center items-center bg-[#f6f6f6]">
             <svg class="group-hover:fill-kcoin transition-colors duration-150" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="#1D1D1D" style="cursor: pointer;"><path d="M153.6 256a51.2 51.2 0 0151.2-51.2h614.4a51.2 51.2 0 110 102.4H204.8a51.2 51.2 0 01-51.2-51.2zm0 256a51.2 51.2 0 0151.2-51.2H512a51.2 51.2 0 110 102.4H204.8a51.2 51.2 0 01-51.2-51.2zm0 256a51.2 51.2 0 0151.2-51.2h614.4a51.2 51.2 0 110 102.4H204.8a51.2 51.2 0 01-51.2-51.2z"></path></svg>
           </button>
