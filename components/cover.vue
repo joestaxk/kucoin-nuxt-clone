@@ -1,9 +1,6 @@
 <template>
     <section class="relative z-2 w-full h-full md:mt-[5rem] mt-[3rem]">
       <div class="coverbg w-full h-[60vh] absolute z-0"></div>
-      <!-- <div class="coverbg w-full h-full absolute z-0"></div> -->
-      <!-- <div class="coversm w-full h-full absolute"></div> -->
-      <!-- <img src="./coversvg.svg" class="absolute top-0 right-0 md:block xl:translate-x-0 translate-x-48"/> -->
       <div class="relative inset-0 z-10 flex justify-center items-center p-10 h-full z-3 md:pt-[10rem] pt-[7rem] pl-[1rem] md:mb-10 ">
         <div class="w-[1200px] pl-2 z-2">
             <h1 class="xl:text-[56px] lg:text-[3.4rem] md:text-[3rem] text-[2rem] leading-tight font-bold">{{ t("Find the Next") }}</h1>

@@ -33,22 +33,15 @@
                             </div>
                         </div>
                         </div>
-                        <!-- <div class="grid grid-cols-2 divide-x divide-gray-900/5 bg-gray-50">
-                        <a v-for="item in callsToAction" :key="item.name" :href="item.href" class="flex items-center justify-center gap-x-2.5 p-3 text-sm font-semibold leading-6 text-gray-900 hover:bg-gray-100">
-                            <component :is="item.icon" class="h-5 w-5 flex-none text-gray-400" aria-hidden="true" />
-                            {{ item.name }}
-                        </a>
-                        </div> -->
                     </PopoverPanel>
                     </transition>
                 </Popover>
         
                 <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Market</a>
-                <!-- <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Marketplace</a>
-                <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Company</a> -->
                 </PopoverGroup>
             </div>
         </div>
+        
         <div class="flex flex-1 justify-end md:gap-4 gap-2 items-center ">
           <div class="flex items-center gap-4">
             <a href="#" class="text-sm font-semibold leading-6 text-gray-800 hiddn whitespace-nowrap sm:block">Log In </a>
@@ -94,12 +87,7 @@
                   </DisclosurePanel>
                 </Disclosure>
                 <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Markets</a>
-                <!-- <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Marketplace</a>
-                <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Company</a> -->
               </div>
-              <!-- <div class="py-6">
-                <a href="#" class="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Log in</a>
-              </div> -->
             </div>
           </div>
 
