@@ -1,5 +1,5 @@
 <template>
-    <section class="h-[100vh] w-full flex justify-center">
+    <section class="h-[100vh] w-full flex justify-center p-10">
         <div class="xl:w-[1200px] w-full pb-10">
             <div class="">
                 <img src="/zihux_logo.svg" class="-translate-x-10" alt="logo">

@@ -5,14 +5,14 @@
             <a href="#" class="-m-1.5">
                 <span class="sr-only">Your Company</span>
                 <div class=" overflow-hidden">
-                  <img class="relative h-[50px] w-full -translate-x-5 sm:-translate-x-10 " src="/zihux_logo.svg" alt="" />
+                  <img class="relative h-[50px] min-w-[150px] -translate-x-5 sm:-translate-x-10 " src="/zihux_logo.svg" alt="" />
                 </div>
             </a>
 
             <div class="pl-4 -translate-x-16">
                 <PopoverGroup class="hidden lg:flex lg:gap-x-4">
                 <Popover class="relative">
-                    <PopoverButton class="flex items-center gap-x-1 text-sm font-semibold leading-6 text-gray-900">
+                    <PopoverButton class="flex items-center gap-x-1 whitespace-nowrap text-sm font-semibold leading-6 text-gray-900">
                     Buy Crypto
                     <ChevronDownIcon class="h-5 w-5 flex-none text-gray-400" aria-hidden="true" />
                     </PopoverButton>
@@ -37,7 +37,11 @@
                     </transition>
                 </Popover>
         
-                <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Market</a>
+                <a href="#" class="text-sm font-semibold leading-6 text-gray-900 whitespace-nowrap hover:text-kcoin transition-all">Market</a>
+                <a href="#" class="text-sm font-semibold leading-6 text-gray-900 whitespace-nowrap hover:text-kcoin transition-all">A.I Bot Trading </a>
+                <a href="#" class="text-sm font-semibold leading-6 text-gray-900 whitespace-nowrap hover:text-kcoin transition-all">ICO Lauch</a>
+                <a href="#" class="text-sm font-semibold leading-6 text-gray-900 whitespace-nowrap hover:text-kcoin transition-all">Crypto Staking</a>
+                <a href="#" class="text-sm font-semibold leading-6 text-gray-900 whitespace-nowrap hover:text-kcoin transition-all">Investment</a>
                 </PopoverGroup>
             </div>
         </div>
@@ -86,7 +90,11 @@
                     <DisclosureButton v-for="item in [...products]" :key="item.name" as="a" :href="item.href" class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50">{{ item.name }}</DisclosureButton>
                   </DisclosurePanel>
                 </Disclosure>
-                <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Markets</a>
+                <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base  font-semibold leading-7 text-gray-900 hover:bg-gray-50">Markets</a>
+                <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base  font-semibold leading-6 text-gray-900  hover:bg-gray-50 transition-all">A.I Bot Trading </a>
+                <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base  font-semibold leading-6 text-gray-900  hover:bg-gray-50 transition-all">ICO Lauch</a>
+                <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base  font-semibold leading-6 text-gray-900  hover:bg-gray-50 transition-all">Crypto Staking</a>
+                <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base  font-semibold leading-6 text-gray-900  hover:bg-gray-50 transition-all">Investment</a>
               </div>
             </div>
           </div>
