@@ -10,6 +10,7 @@
   background-repeat: no-repeat;
   background-position: 100% 0%;
   background-size: contain;
+  min-height: 66vh;
 }
 
 

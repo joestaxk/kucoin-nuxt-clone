@@ -44,7 +44,7 @@
       </div>
     </section>
     
-    <div class="flex xl:justify-center w-full p-5 mt-[5rem] ">
+    <div class="flex xl:justify-center w-full p-5 mt-[7rem] ">
       <div class="w-full md:w-full xl:w-[1200px] grid grid-cols-2 gap-5 md:flex md:justify-between justify-start md:items-center md:divide-x-2 divide-gray-200">
         <div class="">
           <h1 class="md:text-[1.7rem] text-[1.2rem] leading-relaxed font-bold">200+</h1>
